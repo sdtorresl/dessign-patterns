@@ -3,6 +3,7 @@ package co.edu.unisabana.solid.repository;
 import co.edu.unisabana.solid.dataModel.Employee;
 import co.edu.unisabana.solid.data.IEmployeeDB;
 
+import java.util.List;
 import java.util.Optional;
 
 public class EmployeeManager implements EmployeeOperations {
@@ -26,5 +27,10 @@ public class EmployeeManager implements EmployeeOperations {
     public Employee getEmployeeById(int id) {
         Optional<Employee> employee = this.employeeDB.getEmployees().stream().filter(e -> e.getId() == id).findFirst();
         return employee.orElse(null);
+    }
+
+    @Override
+    public List<Employee> getEmployees() {
+        return this.employeeDB.getEmployees();
     }
 }
