@@ -1,6 +1,9 @@
-package co.edu.unisabana.exercise1;
+package co.edu.unisabana.dessignpatterns.exercise1;
 
-import co.edu.unisabana.exercise1.model.*;
+import co.edu.unisabana.dessignpatterns.exercise1.model.Warrior;
+import co.edu.unisabana.dessignpatterns.exercise1.model.WarriorBuilder;
+import co.edu.unisabana.dessignpatterns.exercise1.model.Wizard;
+import co.edu.unisabana.dessignpatterns.exercise1.model.WizardBuilder;
 
 public class Game {
     public static void main(String[] args) {

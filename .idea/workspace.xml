@@ -5,19 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a50f537-05e3-448e-8da7-066366b8947f" name="Changes" comment="Exercise 1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/model/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/model/HeroBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/model/IHeroBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/model/IWarriorBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/model/IWizardBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/model/Warrior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/model/WarriorBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/model/Wizard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/model/WizardBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/edu/unisabana/exercise1/WarriorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/dessignpatterns/exercise1/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/model/Archery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/dessignpatterns/exercise1/model/Archery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/model/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/dessignpatterns/exercise1/model/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/model/HeroBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/dessignpatterns/exercise1/model/HeroBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/model/IHeroBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/dessignpatterns/exercise1/model/IHeroBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/model/IWarriorBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/dessignpatterns/exercise1/model/IWarriorBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/model/IWizardBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/dessignpatterns/exercise1/model/IWizardBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/model/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/dessignpatterns/exercise1/model/Warrior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/model/WarriorBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/dessignpatterns/exercise1/model/WarriorBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/model/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/dessignpatterns/exercise1/model/Wizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/model/WizardBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/dessignpatterns/exercise1/model/WizardBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +30,25 @@
         <option value="JUnit5 Test Class" />
         <option value="Class" />
         <option value="Interface" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "sdtorresl"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/sdtorresl/dessign-patterns.git",
+    "accountId": "b365dd15-da73-4e6a-b50f-91219fa4e083"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
 }]]></component>
@@ -135,7 +148,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721443293668</updated>
-      <workItem from="1721443294825" duration="11645000" />
+      <workItem from="1721443294825" duration="14911000" />
     </task>
     <task id="LOCAL-00001" summary="Initial repo">
       <option name="closed" value="true" />
@@ -145,7 +158,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721500171260</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Exercise 1">
+      <option name="closed" value="true" />
+      <created>1721500459845</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721500459845</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Exercise 1">
+      <option name="closed" value="true" />
+      <created>1721500513972</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721500513972</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

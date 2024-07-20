@@ -1,4 +1,4 @@
-package co.edu.unisabana.exercise1.model;
+package co.edu.unisabana.dessignpatterns.exercise1.model;
 
 public class WizardBuilder extends HeroBuilder implements IWizardBuilder {
 
