@@ -1,6 +1,11 @@
 # SOLID y Patrones de Diseño
 
 - Integrantes:
+  Cristian Fernando Fuentes Restrepo
+  Eduardo Jose Salguero Ospina
+  Miguel Angel Cendales Reyes
+  Sergio Daniel Torres Linares
+  Jhon Alexander Vasquez Forero
 
 ## Principos SOLID corregidos
 
