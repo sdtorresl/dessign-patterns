@@ -1,15 +1,20 @@
-package com.example.demo.unsolid;
+package co.edu.unisabana.solid;
 
 public class Employee {
 
-    String name;
-    String departament;
+    private final String name;
+    private final String department;
+
+    public Employee(String name, String department) {
+        this.department = department;
+        this.name = name;
+    }
 
     public String getName() {
         return name;
     }
 
-    public String getDepartament() {
-        return departament;
+    public String getDepartment() {
+        return department;
     }
 }

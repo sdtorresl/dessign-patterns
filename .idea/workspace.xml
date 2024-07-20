@@ -4,20 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a50f537-05e3-448e-8da7-066366b8947f" name="Changes" comment="Exercise 1">
+    <list default="true" id="5a50f537-05e3-448e-8da7-066366b8947f" name="Changes" comment="Add README">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/dessignpatterns/exercise1/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/model/Archery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/dessignpatterns/exercise1/model/Archery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/model/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/dessignpatterns/exercise1/model/Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/model/HeroBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/dessignpatterns/exercise1/model/HeroBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/model/IHeroBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/dessignpatterns/exercise1/model/IHeroBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/model/IWarriorBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/dessignpatterns/exercise1/model/IWarriorBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/model/IWizardBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/dessignpatterns/exercise1/model/IWizardBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/model/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/dessignpatterns/exercise1/model/Warrior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/model/WarriorBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/dessignpatterns/exercise1/model/WarriorBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/model/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/dessignpatterns/exercise1/model/Wizard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/model/WizardBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/dessignpatterns/exercise1/model/WizardBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/solid/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/solid/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/solid/EmployeeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/solid/EmployeeManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/solid/EmployeeOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/solid/EmployeeOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/solid/PartTimeEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/solid/PartTimeEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/solid/ReportGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/solid/ReportGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/solid/SalaryCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/solid/SalaryCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +143,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721443293668</updated>
-      <workItem from="1721443294825" duration="14911000" />
+      <workItem from="1721443294825" duration="15996000" />
     </task>
     <task id="LOCAL-00001" summary="Initial repo">
       <option name="closed" value="true" />
@@ -174,7 +169,31 @@
       <option name="project" value="LOCAL" />
       <updated>1721500513972</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add unsolid classes">
+      <option name="closed" value="true" />
+      <created>1721504834977</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721504834977</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add unsolid classes">
+      <option name="closed" value="true" />
+      <created>1721504849698</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721504849698</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add README">
+      <option name="closed" value="true" />
+      <created>1721505288546</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1721505288546</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +202,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial repo" />
     <MESSAGE value="Exercise 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercise 1" />
+    <MESSAGE value="Add unsolid classes" />
+    <MESSAGE value="Add README" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add README" />
   </component>
 </project>

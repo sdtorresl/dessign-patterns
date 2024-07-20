@@ -1,4 +1,4 @@
-package com.example.demo.unsolid;
+package co.edu.unisabana.solid;
 
 public class ReportGenerator {
 

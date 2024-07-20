@@ -1,4 +1,4 @@
-package com.example.demo.unsolid;
+package co.edu.unisabana.solid;
 
 public interface EmployeeOperations {
     void addEmployee(String name);

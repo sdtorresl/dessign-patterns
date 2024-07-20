@@ -1,8 +1,7 @@
-package com.example.demo.unsolid;
+package co.edu.unisabana.solid;
 
 public class PartTimeEmployee extends Employee {
-    @Override
-    public String getName() {
-        throw new UnsupportedOperationException();
+    public PartTimeEmployee(String name, String departament) {
+        super(name, departament);
     }
 }
