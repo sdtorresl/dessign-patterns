@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a50f537-05e3-448e-8da7-066366b8947f" name="Changes" comment="Add README">
+    <list default="true" id="5a50f537-05e3-448e-8da7-066366b8947f" name="Changes" comment="Fix package names">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/solid/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/solid/Employee.java" afterDir="false" />
@@ -143,7 +143,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721443293668</updated>
-      <workItem from="1721443294825" duration="15996000" />
+      <workItem from="1721443294825" duration="16333000" />
     </task>
     <task id="LOCAL-00001" summary="Initial repo">
       <option name="closed" value="true" />
@@ -193,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721505288546</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fix package names">
+      <option name="closed" value="true" />
+      <created>1721506238752</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1721506238752</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +212,7 @@
     <MESSAGE value="Exercise 1" />
     <MESSAGE value="Add unsolid classes" />
     <MESSAGE value="Add README" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add README" />
+    <MESSAGE value="Fix package names" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix package names" />
   </component>
 </project>
