@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a50f537-05e3-448e-8da7-066366b8947f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="5a50f537-05e3-448e-8da7-066366b8947f" name="Changes" comment="Exercise 1">
       <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/model/Archery.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/model/Hero.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/model/HeroBuilder.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/model/IHeroBuilder.java" afterDir="false" />
@@ -25,6 +17,7 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/model/Wizard.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/unisabana/exercise1/model/WizardBuilder.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/co/edu/unisabana/exercise1/WarriorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,11 +135,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721443293668</updated>
-      <workItem from="1721443294825" duration="10949000" />
+      <workItem from="1721443294825" duration="11645000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial repo">
+      <option name="closed" value="true" />
+      <created>1721500171260</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721500171260</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial repo" />
+    <MESSAGE value="Exercise 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercise 1" />
   </component>
 </project>
