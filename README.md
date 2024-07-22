@@ -21,7 +21,7 @@ estas clases: Clase EmployeeManager and EmployeeOperations no cumple con la resp
 Los cuales separaremos en class indepencientes con sus respectivas interfaces  
 
 **O - Abierto/Cerrado - Clasa Employee**
-Viola el principio de Open/Closed principle, dado que los atributos name y department están definidos como públicos, ademas de que 
+No cumple con el principio de Open/Closed principle, dado que los atributos name y department están definidos como públicos, ademas de que 
 
 **L -Sustitución de Liskov**
 
