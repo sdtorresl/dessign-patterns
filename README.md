@@ -23,8 +23,8 @@ Los cuales separaremos en class indepencientes con sus respectivas interfaces
 **O - Abierto/Cerrado - Clasa Employee**
 Viola el principio de Open/Closed principle, dado que los atributos name y department están definidos como públicos, ademas de que 
 
-*L -Sustitución de Liskov**
+**L -Sustitución de Liskov**
 
-*I -Segregación de la Interfaz**
+**I -Segregación de la Interfaz**
 
-*D -Inversión de Dependencias**
+**D -Inversión de Dependencias**
