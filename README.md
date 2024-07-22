@@ -11,12 +11,7 @@
 
 **S - Responsabilidad Única**
 Dimos a cada metodo una funcionalidad unica, brindadndo la dando mayor Cohecion posible.
-
-**O - Abierto/Cerrado - Clasa Employee**
-Viola el principio de Open/Closed principle, dado que los atributos name y department están definidos como públicos, ademas de que 
-
-**Clase EmployeeManager and EmployeeOperations**
-viola la responsabildad unica, por estos dos metdos:
+estas clases: Clase EmployeeManager and EmployeeOperations no cumple con la responsabildad unica, por estos dos metdos:
 
 ```sh
     double calculateSalary(String name);
@@ -25,4 +20,11 @@ viola la responsabildad unica, por estos dos metdos:
 
 Los cuales separaremos en class indepencientes con sus respectivas interfaces  
 
-**Clase EmployeeManager and EmployeeOperations**
+**O - Abierto/Cerrado - Clasa Employee**
+Viola el principio de Open/Closed principle, dado que los atributos name y department están definidos como públicos, ademas de que 
+
+*L -Sustitución de Liskov**
+
+*I -Segregación de la Interfaz**
+
+*D -Inversión de Dependencias**
