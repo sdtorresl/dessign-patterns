@@ -29,5 +29,13 @@ public class Main {
         }
         );
 
+
+        ReportGenerator excelReportService = new ReportGenerator(new ExcelReportGenerator());
+        excelReportService.generateReport(employeeManager);
+
+
+        ReportGenerator pdfReportService = new ReportGenerator(new PDFReportGenerator());
+        pdfReportService.generateReport(employeeManager);
+
     }
 }
