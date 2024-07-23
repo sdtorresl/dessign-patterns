@@ -10,21 +10,24 @@
 ## Principos SOLID corregidos
 
 **S - Responsabilidad Única**
-Dimos a cada metodo una funcionalidad unica, brindadndo la dando mayor Cohecion posible.
-estas clases: Clase EmployeeManager and EmployeeOperations no cumple con la responsabildad unica, por estos dos metdos:
+Dimos a cada metodo una funcionalidad única, brindando la dando mayor cohecion posible.
+Las clases EmployeeManager y EmployeeOperations no cumplen con la responsabildad unica, por estos dos métdos:
 
 ```sh
     double calculateSalary(String name);
     void saveToFile(String name);
 ```
 
-Los cuales separaremos en class indepencientes con sus respectivas interfaces  
+Los cuales separaramos en clases independientes con sus respectivas interfaces.
 
-**O - Abierto/Cerrado - Clasa Employee**
+**O - Abierto/Cerrado**
+- Clase Employee
 No cumple con el principio de Open/Closed principle, dado que los atributos name y department están definidos como públicos, ademas de que 
+- Clase ReportGenerator
+Esta clase originalmente no cumple con este principio, dado que si se quisiera añadir funcionalidad, esta debería ser modificada. En su lugar, creamos una interfaz que puede ser implementada y permite que se creen diferentes tipos de reporte sin necesidad de que sea intervenida.
 
 **L - Sustitución de Liskov**
-Mejoramos este prinicpio en la clase Employee y PartTimeEmployee
+Mejoramos este prinicpio en la clase Employee y PartTimeEmployee, ya que, originalmente, un objeto de la case Employee no podría ser reemplazado por uno de su subclase (PartTimeEmployee) sin sufrir inconvenientes.
 
 **I - Segregación de la Interfaz**
 La interfaz EmployeeOperations, fue segregada y se agrego la interfaz: IFileOperations y de la misma interfaz de EmployeeOperations extragimos a calculateSalary como caso de uso, lo vemos como ua operacion propia del negocio
