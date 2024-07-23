@@ -1,5 +1,6 @@
-package co.edu.unisabana.solid.data;
+package co.edu.unisabana.solid.usecases;
 
+import co.edu.unisabana.solid.data.IReportGenerator;
 import co.edu.unisabana.solid.repository.EmployeeManager;
 
 

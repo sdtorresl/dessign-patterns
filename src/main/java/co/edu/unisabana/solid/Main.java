@@ -3,10 +3,10 @@ package co.edu.unisabana.solid;
 import co.edu.unisabana.solid.data.EmployeeDB;
 import co.edu.unisabana.solid.repository.ExcelReportGenerator;
 import co.edu.unisabana.solid.repository.PDFReportGenerator;
-import co.edu.unisabana.solid.data.ReportGenerator;
 import co.edu.unisabana.solid.dataModel.Employee;
 import co.edu.unisabana.solid.dataModel.PartTimeEmployee;
 import co.edu.unisabana.solid.repository.EmployeeManager;
+import co.edu.unisabana.solid.usecases.ReportGenerator;
 import co.edu.unisabana.solid.usecases.SalaryCalculator;
 
 public class Main {
