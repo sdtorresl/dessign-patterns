@@ -44,6 +44,10 @@ public class TaskSystem {
         Command completeTask = new CompleteTaskCommand(task1, taskManager);
         invoker.executeCommand(completeTask);
 
+        System.out.println("All tasks Complete Task:");
+        taskManager.getAllTasks().forEach(task -> System.out.println(task.getDescription() + ", status: " + task.isComplete()));
+
+
 
 
 
