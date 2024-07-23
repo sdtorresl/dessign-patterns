@@ -1,6 +1,9 @@
 package co.edu.unisabana.solid;
 
 import co.edu.unisabana.solid.data.EmployeeDB;
+import co.edu.unisabana.solid.repository.ExcelReportGenerator;
+import co.edu.unisabana.solid.repository.PDFReportGenerator;
+import co.edu.unisabana.solid.data.ReportGenerator;
 import co.edu.unisabana.solid.dataModel.Employee;
 import co.edu.unisabana.solid.dataModel.PartTimeEmployee;
 import co.edu.unisabana.solid.repository.EmployeeManager;
@@ -22,17 +25,15 @@ public class Main {
         employeeManager.addEmployee(employee3);
         employeeManager.addEmployee(employee4);
 
-        employeeManager.getEmployees().forEach(employee-> {
-            double salary = calculator.calculateSalary(employee.getId());
-            System.out.println("The salary " + employee.getName() + " is: " + salary);
+        employeeManager.getEmployees().forEach(employee -> {
+                    double salary = calculator.calculateSalary(employee.getId());
+                    System.out.println("The salary " + employee.getName() + " is: " + salary);
 
-        }
+                }
         );
-
 
         ReportGenerator excelReportService = new ReportGenerator(new ExcelReportGenerator());
         excelReportService.generateReport(employeeManager);
-
 
         ReportGenerator pdfReportService = new ReportGenerator(new PDFReportGenerator());
         pdfReportService.generateReport(employeeManager);

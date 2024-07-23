@@ -7,7 +7,7 @@ public class ReportGenerator {
 
     private final IReportGenerator reportGenerator;
 
-    public ReportService(IReportGenerator reportGenerator) {
+    public ReportGenerator(IReportGenerator reportGenerator) {
         this.reportGenerator = reportGenerator;
     }
 

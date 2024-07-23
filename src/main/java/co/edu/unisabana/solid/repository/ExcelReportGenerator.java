@@ -1,4 +1,6 @@
-package co.edu.unisabana.solid.data;
+package co.edu.unisabana.solid.repository;
+
+import co.edu.unisabana.solid.data.IReportGenerator;
 
 public class ExcelReportGenerator implements IReportGenerator {
 
