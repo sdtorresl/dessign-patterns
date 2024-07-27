@@ -49,3 +49,6 @@ Se crearon "capas de datos" para manejar responsabilidades de procesos por separ
 **Exercise 4: Command**
 
 **Exercise 5:**
+```
+  Decorator
+```
