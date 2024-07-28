@@ -34,3 +34,21 @@ La interfaz EmployeeOperations, fue segregada y se agrego la interfaz: IFileOper
 
 **D - Inversión de Dependencias**
 Se crearon "capas de datos" para manejar responsabilidades de procesos por separado y darle manejo a la INVERSION de depencias 
+
+##  Patrones de Diseño
+
+**Exercise 1:**
+
+**Exercise 2:**
+```sh
+  Observer
+```
+
+**Exercise 3:**
+
+**Exercise 4: Command**
+
+**Exercise 5:**
+```
+  Decorator
+```
