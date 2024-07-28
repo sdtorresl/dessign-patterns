@@ -49,7 +49,10 @@ Se crearon "capas de datos" para manejar responsabilidades de procesos por separ
   Template Method
 ```
 
-**Exercise 4: Command**
+**Exercise 4:**
+```
+  Command
+```
 
 **Exercise 5:**
 ```
