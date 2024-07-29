@@ -40,12 +40,21 @@ Se crearon "capas de datos" para manejar responsabilidades de procesos por separ
 **Exercise 1:**
 
 **Exercise 2:**
-```sh
+```
   Observer
 ```
 
 **Exercise 3:**
+```
+  Template Method
+```
 
-**Exercise 4: Command**
+**Exercise 4:**
+```
+  Command
+```
 
 **Exercise 5:**
+```
+  Decorator
+```
