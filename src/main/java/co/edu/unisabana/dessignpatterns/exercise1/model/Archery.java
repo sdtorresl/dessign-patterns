@@ -3,6 +3,8 @@ package co.edu.unisabana.dessignpatterns.exercise1.model;
 import java.util.List;
 
 public class Archery extends Hero {
+    private int arrows;
+
     public int getArrows() {
         return arrows;
     }
@@ -11,9 +13,8 @@ public class Archery extends Hero {
         this.arrows = arrows;
     }
 
-    private int arrows;
-
-    protected Archery(int skillPoints, int experience, String visualAspect, String name, List<String> magicalSkills, List<String> defenses, List<String> attacks, int arrows) {
+    protected Archery(int skillPoints, int experience, String visualAspect, String name, List<String> magicalSkills,
+            List<String> defenses, List<String> attacks, int arrows) {
         super(skillPoints, experience, visualAspect, name, magicalSkills, defenses, attacks);
         this.arrows = arrows;
     }

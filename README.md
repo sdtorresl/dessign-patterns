@@ -38,7 +38,10 @@ Se crearon "capas de datos" para manejar responsabilidades de procesos por separ
 ##  Patrones de Diseño
 
 **Exercise 1:**
-
+```
+  Prototype
+  Builder  
+```
 **Exercise 2:**
 ```
   Observer

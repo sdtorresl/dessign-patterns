@@ -19,8 +19,8 @@ public class Game {
                 .build();
 
         Wizard copyOfMyWizard = (Wizard) wizard.clone();
+        System.out.println(wizard.getName());
         System.out.println(copyOfMyWizard.getName());
-        System.out.println(copyOfMyWizard.getWand());
 
         Warrior theWarrior = (Warrior) new WarriorBuilder()
                 .weapon("Mjolnir")
